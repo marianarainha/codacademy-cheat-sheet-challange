@@ -1,6 +1,6 @@
-# Codacadmy - Build your Own Cheatsheet Challenge Project (HTML, CSS)
+# Codecadmy - Build your Own Cheatsheet Challenge Project (HTML, CSS)
 
-This is a solution to the [Cheatsheet Challenge Project on Codacademy](https://www.codecademy.com/).
+This is a solution to the [Cheatsheet Challenge Project on Codecademy](https://www.codecademy.com/).
 
 ## The challenge
 
