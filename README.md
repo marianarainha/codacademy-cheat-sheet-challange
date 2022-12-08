@@ -8,8 +8,8 @@ Build your own reference cheat sheet.
 
 ## Links
 
-- Solution URL: (https://github.com/marianarainha/codacademy-cheat-sheet-challange)
-- Live Site URL: (https://marianarainha.github.io/codacademy-cheat-sheet-challange)
+- Solution URL: (https://github.com/marianarainha/codecademy-cheat-sheet-challange)
+- Live Site URL: (https://marianarainha.github.io/codecademy-cheat-sheet-challange)
 
 ## Built with
 
