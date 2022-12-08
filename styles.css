@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 90vw;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(229, 184, 126, 0.6);
+}
+
+header {
+  width: 95vw;
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(12, 9, 9);
+  text-align: center;
+  border-radius: 50px;
+  border: 6px dashed rgb(61, 95, 115);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header img {
+  width: 350px;
+  height: auto;
+  opacity: 0.2;
+}
+
+h1 {
+  position: absolute;
+  top: 10vh;
+  color: rgb(250, 238, 214);
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Bungee", cursive, sans-serif;
+  font-size: 2rem;
+}
+
+main {
+  width: 95vw;
+  min-height: 70vh;
+  border: 6px dashed rgb(61, 95, 115);
+  background-color: rgb(12, 9, 9);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 10rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 8rem;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.tableCard {
+  max-width: 400px;
+  height: 500px;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 1rem 1rem;
+  overflow: hidden;
+  opacity: 0.9;
+}
+
+th {
+  border: 2px solid rgba(218, 183, 154, 0.2);
+  background-color: rgb(34, 55, 66);
+  color: hsl(27, 73%, 70%);
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+}
+
+.tableTitle {
+  font-family: "Train One", cursive, sans-serif;
+  letter-spacing: 0.5rem;
+  font-size: 1rem;
+  border-radius: 1rem 1rem 0 0;
+  padding: 1rem;
+}
+
+.tableSubTitle {
+  font-family: Cambria, Cochin, Georgia, serif;
+  padding: 1rem;
+}
+
+td {
+  border: 2px solid rgba(218, 183, 154, 0.2);
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: rgb(203, 186, 160);
+  color: rgb(34, 55, 66);
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.propertyName {
+  font-weight: bold;
+}
+
+.propertyFonction {
+  font-size: 0.8rem;
+  font-style: oblique;
+  text-align: left;
+}
+
+.propertyExemple {
+  font-family: monospace, serif;
+  color: rgb(223, 85, 21);
+  text-align: left;
+}
+.propertyExemple span {
+  color: rgb(34, 55, 66);
+  background-color: rgb(148, 204, 234);
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    width: 100vw;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 6px dashed rgb(61, 95, 115);
+    margin: 0;
+  }
+
+  header img {
+    width: 200px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    top: 5vh;
+  }
+
+  main {
+    border: 0;
+    width: 100vw;
+    border-radius: 0px;
+    padding: 1rem;
+  }
+
+  .container {
+    align-items: center;
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+  table {
+    height: 80%;
+    font-size: 0.5rem;
+  }
+  td {
+    max-width: 5rem;
+    max-height: 5rem;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+  }
+
+  .tableSubTitle {
+    font-size: 0.7rem;
+  }
+}
